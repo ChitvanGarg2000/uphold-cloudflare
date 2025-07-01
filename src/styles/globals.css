@@ -24,3 +24,385 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+body {
+  background-color: #f0f3f8;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+body #background {
+  height: 700px;
+  width: 80vw;
+  margin-left: auto;
+  border-radius: 50%;
+  background-color: #f5f7fa;
+  position: absolute;
+  top: -480px;
+  right: 0;
+}
+
+@media (max-width: 992px) {
+  body #background {
+    display: none;
+  }
+}
+
+body .bg-overlay {
+  height: 400px;
+  width: 682px;
+  margin-left: auto;
+  border-radius: 50%;
+  background-color: #f0f3f8;
+  position: absolute;
+  top: -324px;
+  left: 55%;
+}
+
+@media (max-width: 992px) {
+  body .bg-overlay {
+    display: none;
+  }
+}
+
+body #upholdForm {
+  position: absolute;
+  z-index: 1000;
+  top: 10%;
+}
+
+body #upholdForm .content {
+  width: 75%;
+  margin-left: auto;
+  padding: 40px;
+}
+
+body #upholdForm .content h2 {
+  font-size: 32px;
+  color: #3c4a5b;
+  font-weight: bold;
+}
+
+body #upholdForm .content p {
+  color: #68778d;
+  font-size: 22px;
+}
+
+body #upholdForm .content img {
+  max-width: 450px;
+  width: 100%;
+}
+
+@media (max-width: 1200px) {
+  body #upholdForm .content {
+    margin: auto;
+    padding: 40px 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  body #upholdForm .content {
+    text-align: center;
+  }
+}
+
+body #upholdForm .form {
+  background-color: white;
+  border-radius: 10px;
+  width: 60%;
+  padding: 45px 35px;
+}
+
+body #upholdForm .form h2 {
+  color: #3c4a5b;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+body #upholdForm .form p {
+  color: gray;
+  padding: 15px 0;
+  font-size: 16px;
+}
+
+body #upholdForm .form p a {
+  color: #49cc68;
+  text-decoration: none;
+}
+
+body #upholdForm .form .button button {
+  text-align: left;
+  border: 1px solid lightgray;
+  padding: 12px 30px;
+  width: 100%;
+  border-radius: 30px;
+  color: #3c4a5b;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+body #upholdForm .form .button button img {
+  margin-right: 80px;
+}
+
+@media (max-width: 992px) {
+  body #upholdForm .form .button button img {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  body #upholdForm .form .button button {
+    text-align: center;
+  }
+}
+
+body #upholdForm .form .horizontalLine {
+  padding: 30px 0;
+  position: relative;
+}
+
+body #upholdForm .form .horizontalLine hr {
+  height: 2px;
+}
+
+body #upholdForm .form .horizontalLine span {
+  background-color: white;
+  position: absolute;
+  top: 35px;
+  left: 34%;
+  padding: 0 15px;
+  font-size: 14px;
+  font-weight: 550;
+  color: #68778d;
+}
+
+@media (max-width: 576px) {
+  body #upholdForm .form .horizontalLine span {
+    left: 25%;
+  }
+}
+
+@media (max-width: 350px) {
+  body #upholdForm .form .horizontalLine span {
+    left: 15%;
+  }
+}
+
+body #upholdForm .form .inputField {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+body #upholdForm .form .inputField label {
+  position: absolute;
+  top: -11px;
+  left: 2%;
+  background-color: white;
+  padding: 0 12px;
+  font-size: 14px;
+  color: #68778d;
+  font-weight: 600;
+}
+
+body #upholdForm .form .inputField input {
+  height: 55px;
+  border: none;
+  border: 2px solid #bccad8;
+  border-radius: 10px;
+}
+
+body #upholdForm .form .fgtpwd a {
+  text-decoration: none;
+  color: #49cc68;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+body #upholdForm .form .buttonNext {
+  text-align: center;
+  padding: 30px 0;
+}
+
+body #upholdForm .form .buttonNext button {
+  border-radius: 30px;
+  padding: 12px;
+  background-color: #49cc68;
+  color: white;
+  text-align: center;
+}
+
+body #upholdForm .form .buttonNext .btn {
+  border-radius: 30px;
+  padding: 12px;
+  background-color: #49cc68;
+  color: white;
+  text-align: center;
+}
+
+@media (max-width: 1400px) {
+  body #upholdForm .form {
+    width: 70%;
+  }
+}
+
+@media (max-width: 1200px) {
+  body #upholdForm .form {
+    width: 90%;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 992px) {
+  body #upholdForm .form {
+    margin: auto;
+  }
+}
+
+.verifyForm {
+  background-color: white;
+  border-radius: 10px;
+  width: 60%;
+  padding: 45px 35px;
+  text-align: center;
+}
+
+.verifyForm h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.verifyForm h4 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.verifyForm h5 {
+  font-size: 20px;
+  font-weight: 600;
+  color: Gray;
+}
+
+.verifyForm form {
+  padding: 30px 0;
+}
+
+.verifyForm form label {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.verifyForm form input {
+  border: none;
+  border: 2px solid lightgray;
+  height: 50px;
+  width: 80%;
+  margin: 15px 0;
+}
+
+.verifyForm form .button button {
+  background-color: #49cc68;
+  color: white;
+  padding: 12px 30px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+@media (max-width: 1400px) {
+  .verifyForm {
+    width: 70%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .verifyForm {
+    width: 90%;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 992px) {
+  .verifyForm {
+    margin: auto;
+  }
+}
+
+#loader {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100000;
+}
+
+.errorForm {
+  background-color: white;
+  border-radius: 10px;
+  width: 60%;
+  padding: 45px 35px;
+  text-align: center;
+}
+
+.errorForm h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.errorForm h4 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.errorForm h5 {
+  font-size: 20px;
+  font-weight: 600;
+  color: Gray;
+}
+
+.errorForm form {
+  padding: 30px 0;
+}
+
+.errorForm form label {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.errorForm form .button a {
+  background-color: #49cc68;
+  color: white;
+  padding: 12px 30px;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+@media (max-width: 1400px) {
+  .errorForm {
+    width: 70%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .errorForm {
+    width: 90%;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 992px) {
+  .errorForm {
+    margin: auto;
+  }
+}
+input.invalid {
+  background-color: #ffdddd;
+}
+body #upholdForm .form .buttonNext .previous-btn{
+  color: #2186cb;
+    margin-top: 17px;
+    font-size: 15px;
+}
+/*# sourceMappingURL=style.css.map */
