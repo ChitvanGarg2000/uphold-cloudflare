@@ -406,7 +406,6 @@ const UpholdLogin = () => {
                     value="Verify"
                     onClick={handleVerifyClick}
                   />
-                  <button className="previous-btn w-full !text-white" onClick={() => handleStepChange(0)}>Previous Page</button>
                 </div>
               </div>}
 
